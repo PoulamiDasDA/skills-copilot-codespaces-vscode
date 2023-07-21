@@ -1,4 +1,5 @@
-function skillMember() {
-    console.log('skillMember')
-    console.log('skillMember printing')
-}
+function skillsMember() {
+    return {
+        restrict: 'E',
+        templateUrl: 'templates/skills-member.html'
+    }}
